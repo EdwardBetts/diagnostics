@@ -111,7 +111,7 @@ function write() {
 /**
  * Process the message with the modifiers.
  *
- * @param {Mixed} message The message to be transformed by modifers.
+ * @param {Mixed} message The message to be transformed by modifiers.
  * @returns {String} Transformed message.
  * @public
  */
@@ -126,7 +126,7 @@ function process(message) {
 /**
  * Introduce options to the logger function.
  *
- * @param {Function} fn Calback function.
+ * @param {Function} fn Callback function.
  * @param {Object} options Properties to introduce on fn.
  * @returns {Function} The passed function
  * @public

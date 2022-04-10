@@ -332,7 +332,7 @@ for debug messages, and doesn't require us to add additional bloat to the
 `diagnostic` core.
 
 For example, you want the messages to be prefixed with the date-time of when
-the log message occured:
+the log message occurred:
 
 ```js
 const diagnostics = require('diagnostics');

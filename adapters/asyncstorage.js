@@ -2,7 +2,7 @@ var storage = require('storage-engine');
 var enabled = require('enabled');
 
 //
-// Compatiblity for when we get an ES compiled version.
+// Compatibility for when we get an ES compiled version.
 //
 if (storage.default) storage = storage.default;
 

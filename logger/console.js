@@ -6,7 +6,7 @@
  * apply functionality to apply the arguments.
  *
  * @param {Object} meta Options of the logger.
- * @param {Array} messages The actuall message that needs to be logged.
+ * @param {Array} messages The actually, actual message that needs to be logged.
  * @public
  */
 module.exports = function (meta, messages) {

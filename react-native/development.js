@@ -39,7 +39,7 @@ var diagnostics = create(function dev(namespace, options) {
       yep.apply(yep, messages);
     });
 
-    queue.lenght = 0;
+    queue.length = 0;
   });
 
   /**

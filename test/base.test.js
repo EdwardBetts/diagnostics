@@ -110,7 +110,7 @@ describe('diagnostics(base)', function () {
         assume(diagnostics.modify).is.a('function');
       });
 
-      it('returns true when a modifer is added', function () {
+      it('returns true when a modifier is added', function () {
         assume(diagnostics.modify(function (x) { return x; })).is.true();
       });
 
